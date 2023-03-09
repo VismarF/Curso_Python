@@ -1,5 +1,6 @@
-numero_1=10
-numero_2=20
-resultado = numero_1 * numero_2
+numero = input ('')
 
-print(resultado)
+if numero % 2 == 1:
+    {
+        print('Weird')
+    }
