@@ -1,6 +1,4 @@
-numero = input ('')
-
-if numero % 2 == 1:
+if 1 and 1:
     {
-        print('Weird')
+        print(True and 1 and False)
     }
