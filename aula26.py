@@ -13,4 +13,4 @@ print(Variavel[0:6])
 
 print(len(Variavel))
 
-print(Variavel[0:9:3])
+print(Variavel[0:9:2])
