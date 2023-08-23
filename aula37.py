@@ -5,6 +5,7 @@ Calculadora com while
 #sair = sair.startswith('s')#.startswith(começa com) e .endswith(termina com)
 """
 while True:
+    
     opcao = input('Selecione a opção desejada:\nAdição(a)\nSubtração(s)\nMultiplicação(m)\nDivisão(d)\n').lower()
     if opcao == 'a':
         numero_1 = float(input('Informe o primeiro valor: '))
@@ -50,11 +51,12 @@ while True:
         # else:
         #      print('Não um numero')
     else:
-         print('Opcão informada não existe\nInforme uma opção existente')
+         print('Opcão informada não existe\nInforme uma opção existente!!')
                 
                 
     sair = input('Quer sair? [s]im: ').lower().startswith('s')
 
     if sair is True:
         break
+
     
